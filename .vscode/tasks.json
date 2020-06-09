@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build our prog",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++17", "-Wall", "-o", "prog", "01/zad.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
